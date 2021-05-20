@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thú</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../component/MainMenu/MainMenu.css">
+    <link rel="stylesheet" href="../component/footer/footer.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <main-menu></main-menu>
+
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Điền tên, họ hoặc nơi ở của loài bạn đang tìm!!">
+        <button type="submit" id="search-button">
+            <i class="fa fa-search"></i>
+        </button>
+    </div>
+
+    <div id="infor_container">
+
+    </div>
+
+    <div style="text-align:center; margin-top: 20px;">
+        <input type="button" id="first" onclick="firstPage()" value="Trang đầu" />
+        <input type="button" id="previous" onclick="previousPage()" value="Trang trước" />
+        <input type="button" id="next" onclick="nextPage()" value="Trang tiếp" />
+        <input type="button" id="last" onclick="lastPage()" value="Trang cuối" />
+    </div>
+    <div id="index_of_page" style="text-align: center;"></div>
+
+    <div style="height: 90px;"></div>
+
+    <hr>
+    <my-footer></my-footer>
+
+    <script type="module" src="../js/main.js"></script>
+    <script src="../data/animal.js"></script>
+    <script src="../js/pagination_list.js"></script>
+    <script src="../js/show.js"></script>
+</body>
+
+</html>
