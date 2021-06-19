@@ -1,9 +1,5 @@
 const footer = document.createElement('template')
 footer.innerHTML = `<footer>
-                        <div class="jumbotron text-center">
-                            <h2>Trang web được làm bởi Nguyễn Huy Hoàng và những người bạn</h2>
-                            <p>Chúc mọi người một ngày tốt lành!!!</p>
-                        </div>
                         <div class="footer-container">
                             <div class="row">
                                 <div class="col-sm-4">

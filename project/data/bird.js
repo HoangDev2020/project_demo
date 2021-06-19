@@ -1,5 +1,5 @@
 
-let chimredbook = [
+let data = [
     {
         name:'Bồ Nông Chân Xám',
         surname:'Bồ nông',

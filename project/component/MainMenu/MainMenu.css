@@ -3,7 +3,7 @@ body, html {
 }
 
 nav {
-    height: 64px;
+    height: 60px;
     width: 100%;
     background: rgba(0, 0, 0, 0.788);
     display: flex;
@@ -12,16 +12,16 @@ nav {
 }
 
 nav h2 {
-    margin-left: 10px;
+    margin-left: 5px;
     color: azure;
     font-family: Sriracha;
     text-shadow: 0 0 10px azure,
                  0 0 20px aqua,
                  0 0 40px dodgerblue,
                  0 0 80px blue;
-    font-size: 30px;
+    font-size: 27px;
     font-style: italic;
-    width: 50px;
+    width: 47px;
 }
 
 nav ul {
@@ -38,10 +38,12 @@ nav ul {
 
 nav li a {
     color: white;
+    font-size: 23px;
+    width: 50px;
     text-decoration: none;
     text-align: center;
     margin-left: 3px;
-    padding: 15px 17px;
+    padding: 16px 15px;
     -webkit-transition: background-color 0.3s ease-in-out;
     -moz-transition: background-color 0.3s ease-in-out;
     -o-transition: background-color 0.3s ease-in-out;

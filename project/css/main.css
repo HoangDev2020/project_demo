@@ -17,6 +17,7 @@
     text-decoration: none;
     width: 260px;
     text-align: center;
+    font-style: italic;
 }
 
 .items:hover {
@@ -37,3 +38,22 @@
     margin-top: 17px;
     font-size: larger;
 }
+
+#information {
+    display: grid;
+    justify-content: center;
+    margin-left: 5%;
+}
+#information h1, h2 {
+    text-align: center;
+}
+
+#information img {
+    width: 250px;
+    margin-left: 35%;
+}
+
+#index_of_page {
+    font-style: italic;
+}
+

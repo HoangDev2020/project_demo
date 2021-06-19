@@ -1,4 +1,4 @@
-let koxuongredbook = [
+let data = [
     {
         name:'Cua suối vỏ nhẫn',
         surname:'Cua suối',
@@ -6,7 +6,7 @@ let koxuongredbook = [
         characteristics:'Vỏ đầu ngực hơi gồ, mặt nhẵn, chỉ có gờ sau trán. Trán có cạnh bên xiên, cạnh trước trán có vệt lõm giữa sâu, chia thành 2 thùy. Gờ bên trước giáp đầu ngực thanh, có dạng hàng nốt nhỏ. Chân bò mimg dài. Đốt cùng phần bụng con đực hình tam giác tròn đầu, cạnh bên thẳng. Vỏ đầu ngực con sống có màu đỏ tươi bao xung quanh, xen lẫn màu tím thẫm ở vùng giữa. Càng và đốt đùi chân bò có màu đỏ tươi.',
         ecological:'Sống ở suối vùng núi. Thường ở trong các hốc đáy mềm dưới các tảng đá ven bờ suối.',
         inCountry:'Trong nước: Nghệ An (Đồng Tam Vè), Thừa Thiên - Huế (A Lưới), Nam Trung Bộ (Phúc Sơn).  Thế giới: Chỉ có ở Việt Nam.',
-        value:'Loài đặc hữu, có giá trị khoa surnamec và thực phẩm.',
+        value:'Loài đặc hữu, có giá trị khoa học và thực phẩm.',
         status:'Diện tích phân bố hẹp ở vùng núi Trung Bộ, ước tính dưới 20,000km2. Khu phân bố bị chia cắt. Các nghiên cứu năm 2000 - 2001 tại vùng núi A Lưới (Thừa Thiên - Huế) đã cho thấy loài này bị nhân dân địa phương khai thác nhiều để làm thực phẩm.',
         protect:'Đã được đưa vào Sách Đỏ Việt Nam. Kiến nghị: hạn chế khai thác, nghiên cứu đặc điểm sinh surnamec - sinh thái.',
         img:'http://vncreatures.net/pictures/animal/2698.JPG',
@@ -18,7 +18,7 @@ let koxuongredbook = [
         characteristics:'Vỏ đầu ngực có dạng gần vuông, vùng giữa nhẵn, có hình vẽ dạng hoa thị, trán hẹp chia hai thuỳ rõ rệt. Vùng góc trước và vùng trán xù xì. Chân bò dài, đốt cùng phần bụng có dạng tam giác tròn đầu, cạnh bên hơi cong.',
         ecological:'Sống ở suối vùng rừng núi, khe suối hẹp thuộc khu vực hạng động đá vôi.',
         inCountry:'Trong nước: Ninh Bình (suối Cúc Phương).  Thế giới: Chỉ mới thấy có ở Việt Nam.',
-        value:'Loài đặc hữu, có giá trị khoa surnamec.',
+        value:'Loài đặc hữu, có giá trị khoa học.',
         status:'Diện tích nơi phân bố rất hẹp, chỉ ở trong Vườn quốc gia Cúc Phương. Diện tích nơi cư trú rất hẹp, ước tính dưới 100km2.',
         protect:'Khoanh vùng bảo vệ, cấm khai thác. Nghiên cứu đặc điểm sinh surnamec - sinh thái, tiến tới nuôi để giữ nguồn gen.',
         img:'http://vncreatures.net/pictures/animal/2699.JPG',

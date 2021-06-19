@@ -1,0 +1,30 @@
+#profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 80px;
+}
+
+#profile_item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#profile-name {
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#profile_item h2 {
+    color: white;
+}
+
+#log-out-button {
+    width: 80px;
+    height: 50px;
+    background-color: red;
+    color: yellow;
+}

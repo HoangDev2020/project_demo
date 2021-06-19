@@ -1,5 +1,5 @@
 
-let bosat_luongcuredbook = [
+let data = [
     {
         name:'Tắc kè',
         surname:'Tắc kè',
